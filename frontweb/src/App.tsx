@@ -1,12 +1,14 @@
-import "./assets/styles/custom.scss";
-import "./App.css";
+import Navbar from './components/Navbar';
+import './assets/styles/custom.scss';
+import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <h1 className="bg-primary">Hello Car Catalog</h1>
-    </div>
+    <>
+      <Navbar />
+      <h1>Carros Top</h1>
+    </>
   );
-}
+};
 
 export default App;
