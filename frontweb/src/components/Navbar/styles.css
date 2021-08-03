@@ -26,3 +26,22 @@
     color: #00285F;
     font-weight: bold;
 }
+
+@media (min-width: 576px) {
+    .main-nav {
+        padding-left: 88px;
+    }
+}
+
+@media (min-width: 768px) {
+    .collapse {
+        justify-content: flex-end;
+        margin-right: 65px;
+    }
+}
+
+@media (min-width: 992px) {
+    .collapse {
+        margin-right: 203px;
+    }
+}
