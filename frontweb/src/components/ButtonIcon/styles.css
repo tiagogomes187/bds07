@@ -69,3 +69,11 @@
         padding-right: 254px;
     }
 }
+
+@media (min-width: 1280px) {
+    .btn-card{
+        margin: 30px 150px 102px 150px;
+        min-width: 979px;
+       
+    }
+}
