@@ -1,5 +1,4 @@
 import './styles.css';
-
 import ProductImg from 'assets/images/product.png';
 
 const ProductCard = () => {
@@ -17,8 +16,8 @@ const ProductCard = () => {
           </p>
         </div>
 
-        <div className="btn-card">
-          <div className="btn-content-container">
+        <div className="btn-card-purchase">
+          <div className="btn-content-container-productcard">
             <div>
               <button className="btn base-button">
                 <h6>COMPRAR</h6>
