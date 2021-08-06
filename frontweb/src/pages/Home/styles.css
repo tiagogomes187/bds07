@@ -28,9 +28,6 @@
 .home-card-banner {
     display: flex;
     flex-direction: column-reverse;
-    background-color: #00285F;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 21px;
@@ -49,7 +46,6 @@
     .home-container {
         font-size: 36px;
         padding-top: 30px;
-        
     }
     .home-content-container h1 {
         width: 420px;
@@ -70,7 +66,6 @@
         height: auto;
     }
     .home-card-banner {
-       
         margin-left: 20px;
         margin-right: 20px;
         min-width: 536px;
@@ -81,13 +76,11 @@
 @media (min-width: 768px) {
     .home-container {
         min-height: 954px;
-        
     }
     .home-card-banner {
         min-width: 728px;
         min-height: 475px;
         margin-bottom: 25px;
-    
         margin-left: 20px;
         margin-right: 20px;
     }
