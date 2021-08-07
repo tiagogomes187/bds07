@@ -3,7 +3,7 @@ import './styles.css';
 
 const ButtonIcon = () => {
   return (
-    <div className="btn-card-home">
+    <div className="base-btn-card btn-card-home">
       <div className="btn-content-container">
         <div>
           <Link to="/products">

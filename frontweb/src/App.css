@@ -35,3 +35,12 @@ a, a:hover {
     font-size: 14px;
     text-transform: uppercase;
 }
+
+.base-btn-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #EDEDED;
+}
